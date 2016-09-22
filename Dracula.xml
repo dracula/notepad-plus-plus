@@ -104,5 +104,6 @@
         <WidgetStyle name="Fold margin" styleID="0" fgColor="282A36" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="URL hovered" styleID="0" fgColor="F1FA8C" bgColor="282A36" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="282A36" fgColor="F8F8F2" fontStyle="0" />
     </GlobalStyles>
 </NotepadPlus>
