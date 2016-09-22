@@ -89,8 +89,8 @@
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
-        <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="10" />
-        <WidgetStyle name="Default Style" styleID="32" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="F8F8F2" bgColor="282A36" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
