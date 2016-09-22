@@ -19,6 +19,26 @@
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="cpp" desc="C++" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1">alignas alignof noexcept nullptr static_assert thread_local final override</WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="6" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
