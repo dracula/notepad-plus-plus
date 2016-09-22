@@ -160,6 +160,22 @@
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="python" desc="Python" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DECORATOR" styleID="15" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="2" fontSize="" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
