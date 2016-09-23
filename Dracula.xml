@@ -187,7 +187,7 @@
             <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ERROR" styleID="1" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="2" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POD" styleID="3" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="POD" styleID="3" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
             <WordsStyle name="INSTRUCTION" styleID="5" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">bool long int char</WordsStyle>
             <WordsStyle name="STRING" styleID="6" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
