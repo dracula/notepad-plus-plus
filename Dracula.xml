@@ -278,7 +278,7 @@
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="44475A" fgColor="F8F8F2" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2F3142" fgColor="F8F8F2" fontSize="" fontStyle="0" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="44475A" fgColor="F8F8F2" fontStyle="0" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="F8F8F2" bgColor="282A36" fontStyle="0" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontSize="" fontStyle="0" />
@@ -291,6 +291,6 @@
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="282A36" fgColor="F8F8F2" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="BD93F9" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="8BE9FD" fgColor="F8F8F2" fontSize="" fontStyle="1" />
-        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FF5555" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FFFF00" fontStyle="0" />
     </GlobalStyles>
 </NotepadPlus>
