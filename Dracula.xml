@@ -399,7 +399,7 @@
             <WordsStyle name="OPERATOR" styleID="6" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="DATE" styleID="8" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
-		<LexerType name="kix" desc="KiXtart" ext="">
+        <LexerType name="kix" desc="KiXtart" ext="">
             <WordsStyle name="DEFAULT" styleID="31" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="2" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
@@ -410,6 +410,13 @@
             <WordsStyle name="INSTRUCTION WORD" styleID="7" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="FUNCTION" styleID="8" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="OPERATOR" styleID="9" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+        </LexerType>
+        <LexerType name="searchResult" desc="Search result" ext="">
+            <WordsStyle name="Search Header" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="File Header" styleID="2" fgColor="F1FA8B" bgColor="282A36" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="Line Number" styleID="3" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="FF5555" bgColor="404357" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="Current line background colour" styleID="6" bgColor="404357" fontSize="" fontStyle="0" />
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
