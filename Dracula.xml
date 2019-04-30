@@ -411,6 +411,21 @@
             <WordsStyle name="FUNCTION" styleID="8" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="OPERATOR" styleID="9" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
+	<LexerType name="latex" desc="LaTeX" ext="">
+            <WordsStyle name="WHITE SPACE" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="1" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="TAG OPENING" styleID="2" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="MATH INLINE" styleID="3" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="4" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="MATH BLOCK" styleID="6" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT BLOCK" styleID="7" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VERBATIM SEGMENT" styleID="8" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SHORT COMMAND" styleID="9" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="SPECIAL CHAR" styleID="10" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND OPTIONAL ARGUMENT" styleID="11" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYNTAX ERROR" styleID="12" fgColor="F8F8F2" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
+	</LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
