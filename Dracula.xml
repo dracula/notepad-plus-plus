@@ -446,8 +446,8 @@
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="F8F8F2" bgColor="282A36" fontStyle="0" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Fold" styleID="0" fgColor="BD93F9" bgColor="BD93F9" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Fold active" styleID="0" fgColor="BD93F9" fontStyle="0" fontSize="" bgColor="282A36" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="BD93F9" bgColor="282A36" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="FF5555" fontStyle="0" fontSize="" bgColor="282A36" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="282A36" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="URL hovered" styleID="0" fgColor="F1FA8C" bgColor="282A36" fontStyle="0" />
