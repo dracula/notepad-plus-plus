@@ -39,6 +39,33 @@
             <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+		<LexerType name="rust" desc="Rust" ext="">
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="WHITESPACE" styleID="0" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BLOCK COMMENT" styleID="2" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LINE COMMENT" styleID="1" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BLOCK DOC COMMENT" styleID="3" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LINE DOC COMMENT" styleID="15" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS 1" styleID="8" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEYWORDS 2" styleID="7" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEYWORDS 3" styleID="8" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEYWORDS 4" styleID="9" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
+            <WordsStyle name="KEYWORDS 5" styleID="10" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="type3">&amp;</WordsStyle>
+            <WordsStyle name="KEYWORDS 6" styleID="11" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
+            <WordsStyle name="KEYWORDS 7" styleID="12" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="type5" />
+            <WordsStyle name="REGULAR STRING" styleID="13" fgColor="F1FA8C" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW STRING" styleID="6" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="15" fgColor="F1FA8C" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="11" fgColor="FF79C6" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="17" fgColor="50FA7B" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LIFETIME" styleID="18" fgColor="50FA7B" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MACRO" styleID="19" fgColor="7EE9DD" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="50FA7B" bgColor="E0C0E0" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE STRING" styleID="6" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW BYTE STRING" styleID="6" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="F1FA8C" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
             <WordsStyle name="XMLSTART" styleID="12" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="XMLEND" styleID="13" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
