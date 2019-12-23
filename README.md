@@ -2,7 +2,7 @@
 
 > A dark theme for [Notepad++](https://notepad-plus-plus.org/).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/notepad-plus-plus.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
