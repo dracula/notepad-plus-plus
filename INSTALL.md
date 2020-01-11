@@ -12,7 +12,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/notepad-plu
 
 #### Activating theme
 
-1.  Go to `%AppData%\Notepad++\themes`
+1.  Go to `%AppData%\Notepad++\themes` (%AppData% is platform dependent environment variable. Open a Command Prompt and execute `echo %AppData%`)
 2.  Place `Dracula.xml` inside that folder
 3.  Restart Notepad++
 4.  Dracula will be available in `Settings > Style Configurator`
