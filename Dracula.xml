@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NotepadPlus>
     <LexerStyles>
+	    <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SINGLESTRING" styleID="7" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="FF5555" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CDATA" styleID="17" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
         <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="Courier New" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="F8F8F2" bgColor="282A36" fontName="Courier New" fontStyle="0" fontSize="10" />
-        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="C0C0C0" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
-        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="E8E8FF" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="999999" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="1" fontSize="10" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2F3142" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="44475A" />
-        <WidgetStyle name="Caret colour" styleID="2069" fgColor="8000FF" />
-        <WidgetStyle name="Edge colour" styleID="0" fgColor="80FFFF" />
-        <WidgetStyle name="Line number margin" styleID="33" fgColor="808080" bgColor="E4E4E4" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Bookmark margin" styleID="0" bgColor="E0E0E0" />
-        <WidgetStyle name="Fold" styleID="0" fgColor="808080" bgColor="F3F3F3" />
-        <WidgetStyle name="Fold active" styleID="0" fgColor="FF0000" />
-        <WidgetStyle name="Fold margin" styleID="0" fgColor="FFFFFF" bgColor="E9E9E9" />
-        <WidgetStyle name="White space symbol" styleID="0" fgColor="FFB56A" />
-        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="00FF00" />
-        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="FF0000" />
-        <WidgetStyle name="Mark Style 1" styleID="25" bgColor="00FFFF" />
-        <WidgetStyle name="Mark Style 2" styleID="24" bgColor="FF8000" />
-        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FFFF00" />
-        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="8000FF" />
-        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="008000" />
-        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="0080FF" />
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="8000FF" />
-        <WidgetStyle name="Tags attribute" styleID="26" bgColor="FFFF00" />
-        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FAAA3C" />
-        <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="FFCAB0" />
-        <WidgetStyle name="Active tab text" styleID="0" fgColor="000000" />
-        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="808080" bgColor="C0C0C0" />
-        <WidgetStyle name="URL hovered" styleID="0" fgColor="0000FF" />
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="F8F8F2" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Bookmark margin" styleID="0" bgColor="282A36" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="BD93F9" bgColor="282A36" />
+        <WidgetStyle name="Fold active" styleID="0" fgColor="BD93F9" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="1E202C" bgColor="282A36" />
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="8BE9FD" fgColor="F8F8F2" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="BD93F9" fgColor="FFCAB0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="282A36" fgColor="F8F8F2" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FF5555" />
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="282A36" />
+	</GlobalStyles>
 </NotepadPlus>

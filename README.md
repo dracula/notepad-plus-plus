@@ -10,38 +10,38 @@ All instructions can be found at [draculatheme.com/notepad-plus-plus](https://dr
 
 ## Supported languages
 
-* AutoIt
-* Batch
-* Bash
-* C
-* C++
-* C#
-* CSS
-* Erlang
-* Haskell
-* HTML
-* INI
-* Java
-* JavaScript
-* JSON
-* KiXtart
-* Latex
-* Lisp
-* Lua
-* Makefile
-* Matlab
-* Pascal
-* PHP
-* PowerShell
-* Properties file
-* R
-* Python
-* Ruby
-* Rust
-* SQL
-* VB/VBS
-* XML
-* YAML
+* [ ] AutoIt
+* [ ] Batch
+* [ ] Bash
+* [ ] C
+* [ ] C++
+* [ ] C#
+* [ ] CSS
+* [ ] Erlang
+* [ ] Haskell
+* [ ] HTML
+* [ ] INI
+* [ ] Java
+* [ ] JavaScript
+* [ ] JSON
+* [ ] KiXtart
+* [ ] Latex
+* [ ] Lisp
+* [ ] Lua
+* [ ] Makefile
+* [ ] Matlab
+* [ ] Pascal
+* [ ] PHP
+* [ ] PowerShell
+* [ ] Properties file
+* [ ] R
+* [ ] Python
+* [ ] Ruby
+* [ ] Rust
+* [ ] SQL
+* [ ] VB/VBS
+* [x] XML
+* [ ] YAML
 
 ## Team
 
