@@ -4,7 +4,7 @@
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    $ git clone https://github.com/dracula/notepad-plus-plus.git
+    git clone https://github.com/dracula/notepad-plus-plus.git
 
 #### Install manually
 * Download using the [Dracula.xml](https://raw.githubusercontent.com/dracula/notepad-plus-plus/master/Dracula.xml) link or
