@@ -488,6 +488,9 @@
             <WordsStyle name="OPERATORS" styleID="6" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="nfo" desc="Dos Style" ext="">
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="F8F8F2" bgColor="282A36" fontSize="" fontStyle="0" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
