@@ -496,7 +496,7 @@
         <!-- Attention : Don't modify the name of styleID="0" -->
         <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="F8F8F2" bgColor="282A36" fontName="Consolas" fontStyle="0" fontSize="10" />
-        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="BD93F9" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="2F3142" fgColor="F8F8F2" fontSize="" fontStyle="0" />
@@ -507,7 +507,7 @@
         <WidgetStyle name="Fold" styleID="0" fgColor="BD93F9" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="BD93F9" fontStyle="0" fontSize="" bgColor="282A36" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="282A36" bgColor="282A36" fontStyle="0" fontSize="" />
-        <WidgetStyle name="White space symbol" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontStyle="0" fontSize="" />
+        <WidgetStyle name="White space symbol" styleID="0" fgColor="6272A4" bgColor="282A36" fontStyle="0" fontSize="" />
         <WidgetStyle name="URL hovered" styleID="0" fgColor="F1FA8C" bgColor="282A36" fontStyle="0" />
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="282A36" fgColor="F8F8F2" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="BD93F9" fgColor="FFCAB0" fontStyle="0" />
