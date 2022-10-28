@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/notepad-plus-plus](https://dr
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/notepad-plus-plus/graphs/contributors).
 
-| [![ukarim](https://avatars3.githubusercontent.com/u/12429084?v=3&s=70)](https://github.com/ukarim) | [![luxonauta](https://avatars3.githubusercontent.com/u/48334856?v=3&s=70)](https://github.com/luxonauta) |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [ukarim](https://github.com/ukarim)                                                                | [luxonauta](https://github.com/luxonauta)                                                                |
+| [![Luxonauta](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
+| --------------------------------------------------------------------------------------- |
+| [Luxonauta](https://github.com/luxonauta)                                               |
 
 ## Community
 
