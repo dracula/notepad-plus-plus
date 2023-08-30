@@ -22,6 +22,10 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 - [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
 - [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
 
+## Dracula PRO
+
+[![Dracula PRO](./dracula-pro.png)](https://draculatheme.com/pro)
+
 ## License
 
 [MIT License](./LICENSE)
