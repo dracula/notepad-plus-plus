@@ -14,7 +14,7 @@ git clone https://github.com/dracula/notepad-plus-plus.git
 
 #### Activating theme
 
-1.  Go to `%AppData%\Roaming\Notepad++\themes` (`%AppData%` is platform dependent environment variable. Open a Command Prompt and execute `echo %AppData%`);
+1.  Go to `%AppData%\Notepad++\themes` (`%AppData%` is platform dependent environment variable. Open a Command Prompt and execute `echo %AppData%`);
 2.  Place [`Dracula.xml`](https://raw.githubusercontent.com/dracula/notepad-plus-plus/master/Dracula.xml) inside that folder;
 3.  Restart Notepad++;
 4.  Dracula will be available in `Settings > Style Configurator`. 💜
