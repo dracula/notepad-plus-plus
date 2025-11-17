@@ -39,7 +39,7 @@
             <WordsStyle name="COMMENT" styleID="1" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="KEYWORDS" styleID="2" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
             <WordsStyle name="LABEL" styleID="3" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="HIDE SYBOL" styleID="4" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HIDE SYMBOL" styleID="4" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMAND" styleID="5" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VARIABLE" styleID="6" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="7" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
@@ -519,18 +519,18 @@
             <WordsStyle name="KEYWORDS 3" styleID="14" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="KEYWORDS 4" styleID="9" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
             <WordsStyle name="KEYWORDS 5" styleID="10" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="type3" />
-            <WordsStyle name="KEYWORDS 6" styleID="11" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
+            <WordsStyle name="KEYWORDS 6" styleID="16" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="type4" />
             <WordsStyle name="KEYWORDS 7" styleID="12" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="type5" />
             <WordsStyle name="REGULAR STRING" styleID="13" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="RAW STRING" styleID="6" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="15" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="11" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="8" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="24" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="17" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LIFETIME" styleID="18" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="19" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="F8F8F2" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BYTE STRING" styleID="6" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="RAW BYTE STRING" styleID="6" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BYTE STRING" styleID="21" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
