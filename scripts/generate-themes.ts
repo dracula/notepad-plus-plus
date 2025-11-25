@@ -10,42 +10,6 @@ import {
 } from "../themes/template";
 import type { ThemeDefinition } from "../themes/theme-types";
 
-// Convert hex to RGB
-const hexToRgb = (hex: string): [number, number, number] => {
-  const r = parseInt(hex.substring(0, 2), 16);
-  const g = parseInt(hex.substring(2, 4), 16);
-  const b = parseInt(hex.substring(4, 6), 16);
-  return [r, g, b];
-};
-
-// Convert RGB to hex
-const rgbToHex = (r: number, g: number, b: number): string => {
-  return [r, g, b]
-    .map((x) => {
-      const hex = Math.round(x).toString(16);
-      return hex.length === 1 ? `0${hex}` : hex;
-    })
-    .join("")
-    .toUpperCase();
-};
-
-// Blend two colors with given opacity (0-1)
-// Since Notepad++ doesn't support alpha, we pre-calculate the blended result
-const blendColors = (
-  foregroundHex: string,
-  backgroundHex: string,
-  opacity: number,
-): string => {
-  const [fr, fg, fb] = hexToRgb(foregroundHex);
-  const [br, bg, bb] = hexToRgb(backgroundHex);
-
-  const r = fr * opacity + br * (1 - opacity);
-  const g = fg * opacity + bg * (1 - opacity);
-  const b = fb * opacity + bb * (1 - opacity);
-
-  return rgbToHex(r, g, b);
-};
-
 const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string => {
   let output = "    <LexerStyles>\n";
 
@@ -126,7 +90,6 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
 const getThemeComments = (theme: ThemeDefinition): string => {
   const themeName = theme.name === "Dracula" ? "Dracula" : "Alucard";
   const variant = theme.name === "Dracula" ? "dark" : "light";
-  const year = new Date().getFullYear();
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
 
