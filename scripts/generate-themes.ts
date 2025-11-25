@@ -26,7 +26,8 @@ const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string
         line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
       }
 
-      line += ` fontName="" fontStyle="${style.fontStyle}" fontSize=""`;
+      // fontName and fontSize are left empty so users can set their own values
+      line += ` fontName="" fontStyle="${style.fontStyle}"  fontSize=""`;
 
       if (style.keywordClass) {
         line += ` keywordClass="${style.keywordClass}"`;
@@ -61,23 +62,14 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
       line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
     }
     
-    // Always include fontName and fontSize as empty strings so users can modify them
-    // Only set actual values for styles that explicitly include them
-    if (style.includeFontName && theme.fontName) {
-      line += ` fontName="${theme.fontName}"`;
-    } else {
-      line += ` fontName=""`;
-    }
+    // fontName and fontSize are left empty so users can set their own values
+    line += ` fontName=""`;
     
     if (style.fontStyle !== undefined) {
       line += ` fontStyle="${style.fontStyle}"`;
     }
     
-    if (style.includeFontSize && theme.fontSize) {
-      line += ` fontSize="${theme.fontSize}"`;
-    } else {
-      line += ` fontSize=""`;
-    }
+    line += ` fontSize=""`;
 
     line += `></WidgetStyle>\n`;
     output += line;
