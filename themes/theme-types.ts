@@ -25,6 +25,10 @@ export interface ColorPalette {
   whitespace: string;
   smartHighlight: string;
   activeTab: string;
+  yellow: string;
+  green: string;
+  orange: string;
+  purple: string;
 }
 
 export interface ThemeDefinition {

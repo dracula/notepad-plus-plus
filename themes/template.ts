@@ -23,6 +23,8 @@ export interface GlobalStyleDef {
   fgColorKey?: keyof ThemeDefinition["colors"];
   bgColorKey?: keyof ThemeDefinition["colors"];
   fontStyle?: number;
+  includeFontName?: boolean;
+  includeFontSize?: boolean;
 }
 
 export const lexerTemplate: LexerDef[] = [
@@ -62,7 +64,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNCTION",
         styleID: "4",
-        fgColorKey: "operator",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 0,
         keywordClass: "instre2",
@@ -345,7 +347,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPE WORD",
         styleID: "16",
-        fgColorKey: "url",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -465,7 +467,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPE WORD",
         styleID: "16",
-        fgColorKey: "fold",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -586,7 +588,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPE WORD",
         styleID: "16",
-        fgColorKey: "fold",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -955,7 +957,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNCTION NAME",
         styleID: "8",
-        fgColorKey: "url",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -1444,7 +1446,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPE WORD",
         styleID: "16",
-        fgColorKey: "fold",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -1799,7 +1801,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNCTION",
         styleID: "8",
-        fgColorKey: "operator",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 0,
         keywordClass: "type1",
@@ -2084,7 +2086,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNC1",
         styleID: "13",
-        fgColorKey: "operator",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 1,
         keywordClass: "instre2",
@@ -2092,7 +2094,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNC2",
         styleID: "14",
-        fgColorKey: "url",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 1,
         keywordClass: "type1",
@@ -2100,7 +2102,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNC3",
         styleID: "15",
-        fgColorKey: "url",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 3,
         keywordClass: "type2",
@@ -2278,7 +2280,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPEWORD",
         styleID: "16",
-        fgColorKey: "operator",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
         keywordClass: "type1",
@@ -2399,7 +2401,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "TYPE WORD",
         styleID: "16",
-        fgColorKey: "fold",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -2786,7 +2788,7 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "FUNCTION",
         styleID: "27",
-        fgColorKey: "identifier",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 1,
       },
@@ -3093,14 +3095,14 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "CLASSNAME",
         styleID: "8",
-        fgColorKey: "fold",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 1,
       },
       {
         name: "DEFNAME",
         styleID: "9",
-        fgColorKey: "identifier",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 0,
       },
@@ -3286,14 +3288,14 @@ export const lexerTemplate: LexerDef[] = [
       {
         name: "CLASS NAME",
         styleID: "8",
-        fgColorKey: "operator",
+        fgColorKey: "type",
         bgColorKey: "background",
         fontStyle: 1,
       },
       {
         name: "DEF NAME",
         styleID: "9",
-        fgColorKey: "url",
+        fgColorKey: "function",
         bgColorKey: "background",
         fontStyle: 1,
       },
@@ -4463,6 +4465,8 @@ export const globalStylesTemplate: GlobalStyleDef[] = [
     fgColorKey: "foreground",
     bgColorKey: "background",
     fontStyle: 0,
+    includeFontName: true,
+    includeFontSize: true,
   },
   {
     name: "Default Style",
@@ -4470,6 +4474,8 @@ export const globalStylesTemplate: GlobalStyleDef[] = [
     fgColorKey: "foreground",
     bgColorKey: "background",
     fontStyle: 0,
+    includeFontName: true,
+    includeFontSize: true,
   },
   {
     name: "Indent guideline style",
@@ -4495,65 +4501,51 @@ export const globalStylesTemplate: GlobalStyleDef[] = [
   {
     name: "Current line background colour",
     styleID: "0",
-    fgColorKey: "foreground",
     bgColorKey: "lineHighlight",
-    fontStyle: 0,
   },
   {
     name: "Selected text colour",
     styleID: "0",
     fgColorKey: "foreground",
     bgColorKey: "selection",
-    fontStyle: 0,
   },
   {
     name: "Caret colour",
     styleID: "2069",
     fgColorKey: "foreground",
-    bgColorKey: "background",
-    fontStyle: 0,
   },
   {
     name: "Edge colour",
     styleID: "0",
-    fgColorKey: "foreground",
-    bgColorKey: "background",
-    fontStyle: 0,
+    fgColorKey: "indentGuide",
   },
   {
     name: "Line number margin",
     styleID: "33",
-    fgColorKey: "fold",
+    fgColorKey: "comment",
     bgColorKey: "background",
-    fontStyle: 0,
   },
   {
     name: "Fold",
     styleID: "0",
-    fgColorKey: "fold",
+    fgColorKey: "comment",
     bgColorKey: "background",
-    fontStyle: 0,
   },
   {
     name: "Fold active",
     styleID: "0",
-    fgColorKey: "fold",
-    bgColorKey: "background",
-    fontStyle: 0,
+    fgColorKey: "comment",
   },
   {
     name: "Fold margin",
     styleID: "0",
     fgColorKey: "background",
     bgColorKey: "background",
-    fontStyle: 0,
   },
   {
     name: "White space symbol",
     styleID: "0",
     fgColorKey: "indentGuide",
-    bgColorKey: "background",
-    fontStyle: 0,
   },
   {
     name: "URL hovered",
@@ -4565,16 +4557,12 @@ export const globalStylesTemplate: GlobalStyleDef[] = [
   {
     name: "Tags attribute",
     styleID: "26",
-    fgColorKey: "foreground",
-    bgColorKey: "background",
-    fontStyle: 0,
+    bgColorKey: "type",
   },
   {
     name: "Tags match highlighting",
     styleID: "27",
-    fgColorKey: "background",
-    bgColorKey: "fold",
-    fontStyle: 0,
+    bgColorKey: "yellow",
   },
   {
     name: "Smart HighLighting",
@@ -4588,5 +4576,181 @@ export const globalStylesTemplate: GlobalStyleDef[] = [
     styleID: "0",
     fgColorKey: "activeTab",
     fontStyle: 0,
+  },
+  {
+    name: "Multi-selected text color",
+    styleID: "0",
+    bgColorKey: "selection",
+  },
+  {
+    name: "Multi-edit carets color",
+    styleID: "0",
+    fgColorKey: "comment",
+  },
+  {
+    name: "Bookmark margin",
+    styleID: "0",
+    bgColorKey: "background",
+  },
+  {
+    name: "Change History margin",
+    styleID: "0",
+    bgColorKey: "background",
+  },
+  {
+    name: "Change History modified",
+    styleID: "0",
+    fgColorKey: "warning",
+    bgColorKey: "warning",
+  },
+  {
+    name: "Change History revert modified",
+    styleID: "0",
+    fgColorKey: "info",
+    bgColorKey: "info",
+  },
+  {
+    name: "Change History revert origin",
+    styleID: "0",
+    fgColorKey: "type",
+    bgColorKey: "type",
+  },
+  {
+    name: "Change History saved",
+    styleID: "0",
+    fgColorKey: "string",
+    bgColorKey: "string",
+  },
+  {
+    name: "Find Mark Style",
+    styleID: "31",
+    bgColorKey: "operator",
+  },
+  {
+    name: "Find status: Not found",
+    styleID: "0",
+    fgColorKey: "error",
+  },
+  {
+    name: "Find status: Message",
+    styleID: "0",
+    fgColorKey: "info",
+  },
+  {
+    name: "Find status: Search end reached",
+    styleID: "0",
+    fgColorKey: "string",
+  },
+  {
+    name: "Mark Style 1",
+    styleID: "25",
+    bgColorKey: "string",
+  },
+  {
+    name: "Mark Style 2",
+    styleID: "24",
+    bgColorKey: "yellow",
+  },
+  {
+    name: "Mark Style 3",
+    styleID: "23",
+    bgColorKey: "error",
+  },
+  {
+    name: "Mark Style 4",
+    styleID: "22",
+    bgColorKey: "green",
+  },
+  {
+    name: "Mark Style 5",
+    styleID: "21",
+    bgColorKey: "purple",
+  },
+  {
+    name: "Incremental highlight all",
+    styleID: "28",
+    bgColorKey: "smartHighlight",
+  },
+  {
+    name: "Active tab unfocused indicator",
+    styleID: "0",
+    fgColorKey: "comment",
+  },
+  {
+    name: "Active tab text",
+    styleID: "0",
+    fgColorKey: "background",
+  },
+  {
+    name: "Inactive tabs",
+    styleID: "0",
+    fgColorKey: "comment",
+    bgColorKey: "selection",
+  },
+  {
+    name: "Tab color 1",
+    styleID: "0",
+    bgColorKey: "yellow",
+  },
+  {
+    name: "Tab color 2",
+    styleID: "0",
+    bgColorKey: "string",
+  },
+  {
+    name: "Tab color 3",
+    styleID: "0",
+    bgColorKey: "info",
+  },
+  {
+    name: "Tab color 4",
+    styleID: "0",
+    bgColorKey: "orange",
+  },
+  {
+    name: "Tab color 5",
+    styleID: "0",
+    bgColorKey: "purple",
+  },
+  {
+    name: "Tab color dark mode 1",
+    styleID: "0",
+    bgColorKey: "yellow",
+  },
+  {
+    name: "Tab color dark mode 2",
+    styleID: "0",
+    bgColorKey: "string",
+  },
+  {
+    name: "Tab color dark mode 3",
+    styleID: "0",
+    bgColorKey: "info",
+  },
+  {
+    name: "Tab color dark mode 4",
+    styleID: "0",
+    bgColorKey: "orange",
+  },
+  {
+    name: "Tab color dark mode 5",
+    styleID: "0",
+    bgColorKey: "purple",
+  },
+  {
+    name: "Document map",
+    styleID: "0",
+    fgColorKey: "background",
+    bgColorKey: "foreground",
+  },
+  {
+    name: "EOL custom color",
+    styleID: "0",
+    fgColorKey: "comment",
+  },
+  {
+    name: "Non-printing characters custom color",
+    styleID: "0",
+    fgColorKey: "indentGuide",
   },
 ];

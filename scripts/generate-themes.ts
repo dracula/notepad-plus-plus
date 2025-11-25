@@ -60,12 +60,21 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
     if (style.bgColorKey) {
       line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
     }
+    if (style.includeFontName && theme.fontName) {
+      line += ` fontName="${theme.fontName}"`;
+    } else if (style.includeFontName) {
+      line += ` fontName=""`;
+    }
     if (style.fontStyle !== undefined) {
       line += ` fontStyle="${style.fontStyle}"`;
     }
-    // Note: We don't include fontName or fontSize as per requirements
+    if (style.includeFontSize && theme.fontSize) {
+      line += ` fontSize="${theme.fontSize}"`;
+    } else if (style.includeFontSize) {
+      line += ` fontSize=""`;
+    }
 
-    line += ` />\n`;
+    line += `></WidgetStyle>\n`;
     output += line;
   }
 
@@ -73,8 +82,34 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
   return output;
 };
 
+const getThemeComments = (theme: ThemeDefinition): string => {
+  const themeName = theme.name === "Dracula" ? "Dracula" : "Alucard";
+  const variant = theme.name === "Dracula" ? "dark" : "light";
+  const year = new Date().getFullYear();
+
+  return `<?xml version="1.0" encoding="UTF-8" ?>
+
+<NotepadPlus>
+<!--
+		${themeName}
+		A ${variant} theme style based on the Dracula Theme color palette.
+
+		Theme by Dracula Theme (draculatheme.com)
+-->
+
+<!--
+  Style name:   	${themeName}
+  Author:       	Dracula Theme
+  Date:         	${new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+  License:      	MIT (https://choosealicense.com/licenses/mit/)
+  Description:  	A ${variant} theme style based on the Dracula Theme color palette
+  Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
+-->
+`;
+};
+
 const generateXML = (theme: ThemeDefinition): string => {
-  const header = `<?xml version="1.0" encoding="Windows-1252" ?>\n<NotepadPlus>\n`;
+  const header = getThemeComments(theme);
   const lexerStyles = generateLexerStyles(lexerTemplate, theme);
   const globalStyles = generateGlobalStyles(globalStylesTemplate, theme);
   const footer = `</NotepadPlus>`;
