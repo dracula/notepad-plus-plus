@@ -64,13 +64,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPEWORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPEWORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -82,13 +82,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -100,13 +100,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -118,13 +118,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1">alignas alignof noexcept nullptr static_assert thread_local final override</WordsStyle>
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -137,12 +137,12 @@
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="TAG" styleID="1" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="CLASS" styleID="2" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="CLASS" styleID="2" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
+            <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VALUE" styleID="8" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="ID" styleID="10" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
@@ -167,24 +167,24 @@
             <WordsStyle name="MACRO QUOTED" styleID="19" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="RECORD" styleID="11" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="RECORD QUOTED" styleID="20" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="ATOM" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="ATOM QUOTED" styleID="18" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="ATOM" styleID="7" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="ATOM QUOTED" styleID="18" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NODE NAME" styleID="13" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NODE NAME QUOTED" styleID="21" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="RESERVED WORDS" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="BUILT-IN FUNCTIONS" styleID="22" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
+            <WordsStyle name="BUILT-IN FUNCTIONS" styleID="22" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
             <WordsStyle name="FUNCTION NAME" styleID="8" fgColor="846E15" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="MODULE NAME" styleID="23" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="MODULE ATTRIBUTES" styleID="24" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type2" />
             <WordsStyle name="PREPROCESSOR" styleID="12" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
-            <WordsStyle name="OPERATORS" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="OPERATORS" styleID="6" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
         <LexerType name="errorlist" desc="ErrorList" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="ERROR" styleID="1" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="WARNING" styleID="2" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="INFO" styleID="3" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="INFO" styleID="3" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
         <LexerType name="go" desc="Go" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -195,7 +195,7 @@
             <WordsStyle name="KEYWORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRINGRAW" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -248,13 +248,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1">@Override @SuppressWarnings @SafeVarargs @FunctionalInterface @Retention @Documented @Target @Inherited @Repeatable @Deprecated</WordsStyle>
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -270,7 +270,7 @@
             <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SINGLESTRING" styleID="49" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="52" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="42" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -308,10 +308,10 @@
         <LexerType name="latex" desc="LaTeX" ext="">
             <WordsStyle name="WHITE SPACE" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMAND" styleID="1" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="TAG OPENING" styleID="2" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="TAG OPENING" styleID="2" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="MATH INLINE" styleID="3" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="4" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="TAG CLOSING" styleID="5" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="MATH BLOCK" styleID="6" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT BLOCK" styleID="7" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM SEGMENT" styleID="8" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -339,7 +339,7 @@
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LITERALSTRING" styleID="8" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -375,13 +375,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPEWORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPEWORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -395,13 +395,13 @@
             <WordsStyle name="QUALIFIER" styleID="20" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type2" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -415,15 +415,15 @@
             <WordsStyle name="COMMENT" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="4" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PREPROCESSOR2" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PREPROCESSOR2" styleID="6" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NUMBER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="HEX NUMBER" styleID="8" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="STRING" styleID="10" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="12" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="13" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="ASM" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="ASM" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
         </LexerType>
         <LexerType name="perl" desc="Perl" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -435,15 +435,15 @@
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="PUNCTUATION" styleID="8" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SCALAR" styleID="12" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="ARRAY" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="HASH" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="SYMBOL TABLE" styleID="15" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="17" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGSUBST" styleID="18" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="17" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGSUBST" styleID="18" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LONGQUOTE" styleID="19" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="BACKTICKS" styleID="20" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="DATA SECTION" styleID="21" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -499,7 +499,7 @@
             <WordsStyle name="KEYWORDS" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="TRIPLE" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="CLASSNAME" styleID="8" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="DEFNAME" styleID="9" fgColor="846E15" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -510,7 +510,7 @@
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="2"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="BASE WORD" styleID="3" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre2" />
+            <WordsStyle name="BASE WORD" styleID="3" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre2" />
             <WordsStyle name="KEYWORD" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -528,11 +528,11 @@
             <WordsStyle name="INSTRUCTION" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="CLASS NAME" styleID="8" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
+            <WordsStyle name="CLASS NAME" styleID="8" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="DEF NAME" styleID="9" fgColor="846E15" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="11" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="12" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="12" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="GLOBAL" styleID="13" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="SYMBOL" styleID="14" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="MODULE NAME" styleID="15" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
@@ -550,20 +550,20 @@
             <WordsStyle name="BLOCK DOC COMMENT" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LINE DOC COMMENT" styleID="15" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="KEYWORDS 1" styleID="5" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
-            <WordsStyle name="KEYWORDS 2" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
-            <WordsStyle name="KEYWORDS 3" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
-            <WordsStyle name="KEYWORDS 4" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type2" />
-            <WordsStyle name="KEYWORDS 5" styleID="10" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type3" />
-            <WordsStyle name="KEYWORDS 6" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type4" />
-            <WordsStyle name="KEYWORDS 7" styleID="12" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type5" />
+            <WordsStyle name="KEYWORDS 1" styleID="5" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEYWORDS 2" styleID="7" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEYWORDS 3" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEYWORDS 4" styleID="9" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type2" />
+            <WordsStyle name="KEYWORDS 5" styleID="10" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type3" />
+            <WordsStyle name="KEYWORDS 6" styleID="16" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type4" />
+            <WordsStyle name="KEYWORDS 7" styleID="12" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type5" />
             <WordsStyle name="REGULAR STRING" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="RAW STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="8" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="24" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="IDENTIFIER" styleID="17" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LIFETIME" styleID="18" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="MACRO" styleID="19" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="MACRO" styleID="19" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LEXICAL ERROR" styleID="20" fgColor="1F1F1F" bgColor="CB3A2A" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="BYTE STRING" styleID="21" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -573,8 +573,8 @@
             <WordsStyle name="Search Header" styleID="1" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
             <WordsStyle name="File Header" styleID="2" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="2"  fontSize="" />
             <WordsStyle name="Line Number" styleID="3" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="Hit Word" styleID="4" fgColor="CB3A2A" bgColor="CFCFDE" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="Current line background colour" styleID="6" fgColor="1F1F1F" bgColor="CFCFDE" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="CB3A2A" bgColor="B3A7E2" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="Current line background colour" styleID="6" fgColor="1F1F1F" bgColor="B3A7E2" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
         <LexerType name="sql" desc="SQL" ext="">
             <WordsStyle name="KEYWORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
@@ -606,13 +606,13 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -631,7 +631,7 @@
             <WordsStyle name="BAREKEY" styleID="7" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="BASIC STRING" styleID="8" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="LITERAL STRING" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="ESCAPE SEQUENCE" styleID="10" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="ESCAPE SEQUENCE" styleID="10" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="ERROR" styleID="11" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
         <LexerType name="typescript" desc="TypeScript (embedded)" ext="">
@@ -642,7 +642,7 @@
             <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SINGLESTRING" styleID="49" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="52" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="42" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -667,7 +667,7 @@
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="UNCLOSED STRING" styleID="7" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="KEYWORD" styleID="8" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre1" />
-            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
+            <WordsStyle name="STD OPERATOR" styleID="9" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="instre2" />
             <WordsStyle name="ATTRIBUTE" styleID="10" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STANDARD FUNCTION" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1"  fontSize="" keywordClass="type1" />
             <WordsStyle name="STANDARD PACKAGE" styleID="12" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -738,9 +738,9 @@
             <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="FUNCTION" styleID="5" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="VARIABLE" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre2" />
-            <WordsStyle name="LABEL" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
+            <WordsStyle name="LABEL" styleID="7" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="USER DEFINED" styleID="8" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type2" />
-            <WordsStyle name="SECTION" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="SECTION" styleID="9" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="SUBSECTION" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="IF DEFINE" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="MACRO" styleID="12" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -762,7 +762,7 @@
             <WordsStyle name="CHARACTER" styleID="7" fgColor="A34D14" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="CB3A2A" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="REGEX" styleID="14" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D9D3C0" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -784,7 +784,7 @@
             <WordsStyle name="FUNCTION2" styleID="10" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
             <WordsStyle name="PREPROCESSOR" styleID="11" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="OPERATOR2" styleID="12" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="LABEL" styleID="13" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="LABEL" styleID="13" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="CONTINUATION" styleID="14" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
         <LexerType name="asm" desc="Assembler" ext="">
@@ -884,7 +884,7 @@
             <WordsStyle name="CHARACTER EOL" styleID="6" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING" styleID="7" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="STRING EOL" styleID="8" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
-            <WordsStyle name="LABEL" styleID="9" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
+            <WordsStyle name="LABEL" styleID="9" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="10" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="ILLEGAL" styleID="11" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
         </LexerType>
@@ -893,7 +893,7 @@
             <WordsStyle name="COMMENT" styleID="1" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="KEYWORD" styleID="2" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre2" />
             <WordsStyle name="PARAMETER" styleID="3" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type1" />
-            <WordsStyle name="SECTION" styleID="4" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
+            <WordsStyle name="SECTION" styleID="4" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="instre1" />
             <WordsStyle name="PREPROCESSOR" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" keywordClass="type2" />
             <WordsStyle name="PREPROCESSOR INLINE" styleID="6" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
             <WordsStyle name="COMMENT PASCAL" styleID="7" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0"  fontSize="" />
@@ -927,8 +927,8 @@
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="DCDEEF" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="1F1F1F" bgColor="644AC9" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="1F1F1F" bgColor="CB3A2A" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="736D53" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Selected text colour" styleID="0" fgColor="1F1F1F" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="E9EAEE" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Selected text colour" styleID="0" fgColor="1F1F1F" bgColor="B3A7E2" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="1F1F1F" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Edge colour" styleID="0" fgColor="DCDEEF" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Line number margin" styleID="33" fgColor="6C664B" bgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
@@ -937,17 +937,17 @@
         <WidgetStyle name="Fold margin" styleID="0" fgColor="FFFBEB" bgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="White space symbol" styleID="0" fgColor="DCDEEF" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="URL hovered" styleID="0" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tags attribute" styleID="26" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="1F1F1F" bgColor="036A96" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="1F1F1F" bgColor="D9D3C0" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="CB3A2A" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="B3A7E2" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="6C664B" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Bookmark margin" styleID="0" bgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Change History margin" styleID="0" bgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Change History modified" styleID="0" fgColor="A34D14" bgColor="A34D14" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Change History revert modified" styleID="0" fgColor="036A96" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="036A96" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="644AC9" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Change History saved" styleID="0" fgColor="14710A" bgColor="14710A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="A3144D" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Find status: Not found" styleID="0" fgColor="CB3A2A" fontName="" fontSize=""></WidgetStyle>
@@ -958,10 +958,10 @@
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="CB3A2A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="14710A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="D9D3C0" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="6C664B" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab text" styleID="0" fgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="6C664B" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="6C664B" bgColor="B3A7E2" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 1" styleID="0" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 2" styleID="0" bgColor="14710A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 3" styleID="0" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
