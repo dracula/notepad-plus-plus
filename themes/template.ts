@@ -6,6 +6,7 @@ export interface StyleDef {
   fgColorKey: keyof ThemeDefinition["colors"];
   bgColorKey: keyof ThemeDefinition["colors"];
   fontStyle: number;
+  colorStyle?: number; // 0 = no color override, 1 = use specified colors
   keywordClass?: string;
   customText?: string;
 }
@@ -2491,6 +2492,70 @@ export const lexerTemplate: LexerDef[] = [
         fgColorKey: "indentGuide",
         bgColorKey: "background",
         fontStyle: 0,
+      },
+      {
+        name: "USER KEYWORDS 1",
+        styleID: "128",
+        fgColorKey: "function",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle1",
+      },
+      {
+        name: "USER KEYWORDS 2",
+        styleID: "129",
+        fgColorKey: "type",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle2",
+      },
+      {
+        name: "USER KEYWORDS 3",
+        styleID: "130",
+        fgColorKey: "url",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle3",
+      },
+      {
+        name: "USER KEYWORDS 4",
+        styleID: "131",
+        fgColorKey: "warning",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle4",
+      },
+      {
+        name: "USER KEYWORDS 5",
+        styleID: "132",
+        fgColorKey: "function",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle5",
+      },
+      {
+        name: "USER KEYWORDS 6",
+        styleID: "133",
+        fgColorKey: "warning",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle6",
+      },
+      {
+        name: "USER KEYWORDS 7",
+        styleID: "134",
+        fgColorKey: "smartHighlight",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle7",
+      },
+      {
+        name: "USER KEYWORDS 8",
+        styleID: "135",
+        fgColorKey: "url",
+        bgColorKey: "background",
+        fontStyle: 0,
+        keywordClass: "substyle8",
       },
     ],
   },
