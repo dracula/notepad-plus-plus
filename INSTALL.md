@@ -30,48 +30,35 @@ Right-click the link and select "Save link as..." or "Save target as..." to down
 
 4. Go to `Settings > Style Configurator > Theme` and select your theme from the dropdown menu, then click "Save & Close". 💜
 
+
 #### UI Themeing
 
-Notepad++ has limited support for customizing the UI elements.
-Some elements are controlled by the Windows theme (menu dropdowns, scrollbars, etc.) and can't be changed.
+Notepad++ can only partially theme its UI; Windows still controls elements like menus and scrollbars.
 
-Some aspects of the color theme can optionally be enabled in the UI settings dialog:
-- Preferences > Editing 1
-  - Apply custom color to selected text foreground
-- Preferences > Editing 2
-  - EOL (CRLF) > Custom Color
-  - Non-Printing Characters > Appearance > Custom Color
-  - Non-Printing Characters > Apply Appearance to C0, C1, EOL
-- Preferences > Toolbar > Pick an icon theme
-  - Pick "Complete" or "Partial" Colorization
-  - Color choice > Custom
-- Preferences > Margins/Border/Edge > Pick what you like
+To apply the UI theme:
 
-You can theme the UI elements by modifying a line in the config file (Default: `%AppData%/Notepad++/config.xml`)
+- Edit `%AppData%\Notepad++\config.xml`.
+- Replace the existing `<GUIConfig name="DarkMode" ...>` line with the snippet shown below.
+- Restart Notepad++ to apply the change.
 
-Replace the line beginning with `<GUIConfig name="DarkMode" ...>` with the desired theme.
+Notes:
 
-Some options may not be available in older versions of Notepad++. If you recently updated, add this line to the config again, as older versions will delete unused properties.
+- Older Notepad++ versions may remove unknown properties — re-add the line after updating if needed.
+- Dark mode must be enabled for both Dracula and Alucard.
 
-> [!IMPORTANT]
-> Dark mode MUST be enabled for both DRACULA & ALUCARD.
-
-> [!WARNING]
-> You cannot use Notepad++ to make this change, as it will overwrite any changes to `config.xml` when closing.
+Warning: Do not edit `config.xml` from inside Notepad++ — the app will overwrite external edits when it exits.
 
 <details>
 <summary>Alucard</summary>
 ```xml
-<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="26317238" customColorMenuHotTrack="12411129" customColorActive="44739226" customColorMain="26317238" customColorError="13340842" customColorText="16316626" customColorDarkText="12411129" customColorDisabledText="10129918" customColorLinkText="9150323" customColorEdge="44739226" customColorHotEdge="12411129" customColorDisabledEdge="11250623" enableWindowsMode="no" darkThemeName="dracula.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="12411129" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="dracula.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="12411129" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
-s
+<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="26317238" customColorMenuHotTrack="12411129" customColorActive="44739226" customColorMain="26317238" customColorError="13340842" customColorText="16316626" customColorDarkText="12411129" customColorDisabledText="10129918" customColorLinkText="9150323" customColorEdge="44739226" customColorHotEdge="12411129" customColorDisabledEdge="11250623" enableWindowsMode="no" darkThemeName="Alucard.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="12411129" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="Alucard.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="12411129" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
 ```
 </details>
 
 <details>
 <summary>Dracula</summary>
 ```xml
-<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="16775275" customColorMenuHotTrack="6573897" customColorActive="7105227" customColorMain="16775275" customColorError="13340842" customColorText="2039583" customColorDarkText="7105227" customColorDisabledText="13619166" customColorLinkText="224022" customColorEdge="7105227" customColorHotEdge="10617517" customColorDisabledEdge="8676629" enableWindowsMode="no" darkThemeName="alucard.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="6573897" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="alucard.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="6573897" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
-
+<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="16775275" customColorMenuHotTrack="6573897" customColorActive="7105227" customColorMain="16775275" customColorError="13340842" customColorText="2039583" customColorDarkText="7105227" customColorDisabledText="13619166" customColorLinkText="224022" customColorEdge="7105227" customColorHotEdge="10617517" customColorDisabledEdge="8676629" enableWindowsMode="no" darkThemeName="Dracula.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="6573897" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="Dracula.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="6573897" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
 ```
 </details>
 
