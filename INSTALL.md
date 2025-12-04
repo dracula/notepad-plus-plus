@@ -51,14 +51,14 @@ Warning: Do not edit `config.xml` from inside Notepad++ — the app will overwri
 <details>
 <summary>Alucard</summary>
 ```xml
-<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="26317238" customColorMenuHotTrack="12411129" customColorActive="44739226" customColorMain="26317238" customColorError="13340842" customColorText="16316626" customColorDarkText="12411129" customColorDisabledText="10129918" customColorLinkText="9150323" customColorEdge="44739226" customColorHotEdge="12411129" customColorDisabledEdge="11250623" enableWindowsMode="no" darkThemeName="Alucard.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="12411129" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="Alucard.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="12411129" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
+<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="26317238" customColorMenuHotTrack="12411129" customColorActive="44739226" customColorMain="26317238" customColorError="13340842" customColorText="16316626" customColorDarkText="12411129" customColorDisabledText="10129918" customColorLinkText="9150323" customColorEdge="44739226" customColorHotEdge="12411129" customColorDisabledEdge="11250623" enableWindowsMode="no" darkThemeName="dracula.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="12411129" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="dracula.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="12411129" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
 ```
 </details>
 
 <details>
 <summary>Dracula</summary>
 ```xml
-<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="16775275" customColorMenuHotTrack="6573897" customColorActive="7105227" customColorMain="16775275" customColorError="13340842" customColorText="2039583" customColorDarkText="7105227" customColorDisabledText="13619166" customColorLinkText="224022" customColorEdge="7105227" customColorHotEdge="10617517" customColorDisabledEdge="8676629" enableWindowsMode="no" darkThemeName="Dracula.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="6573897" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="Dracula.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="6573897" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
+<GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="16775275" customColorMenuHotTrack="6573897" customColorActive="7105227" customColorMain="16775275" customColorError="13340842" customColorText="2039583" customColorDarkText="7105227" customColorDisabledText="13619166" customColorLinkText="224022" customColorEdge="7105227" customColorHotEdge="10617517" customColorDisabledEdge="8676629" enableWindowsMode="no" darkThemeName="alucard.xml" darkToolBarIconSet="2" darkTbFluentColor="7" darkTbFluentCustomColor="6573897" darkTbFluentMono="no" darkTabIconSet="1" darkTabUseTheme="yes" lightThemeName="alucard.xml" lightToolBarIconSet="2" lightTbFluentColor="7" lightTbFluentCustomColor="6573897" lightTbFluentMono="no" lightTabIconSet="1" lightTabUseTheme="yes" />
 ```
 </details>
 
