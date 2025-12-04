@@ -31,7 +31,7 @@ Right-click the link and select "Save link as..." or "Save target as..." to down
 4. Go to `Settings > Style Configurator > Theme` and select your theme from the dropdown menu, then click "Save & Close". 💜
 
 
-#### UI Themeing
+#### UI Theming
 
 Notepad++ can only partially theme its UI; Windows still controls elements like menus and scrollbars.
 
