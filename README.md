@@ -26,6 +26,17 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 [![Dracula PRO](./dracula-pro.png)](https://draculatheme.com/pro)
 
+## Development
+
+This project uses a TypeScript-based build system to generate theme XML files from structured definitions. See [build.md](./build.md) for details on how to modify themes and generate XML files.
+
+### Quick Start
+
+```bash
+npm install
+npm run build
+```
+
 ## License
 
 [MIT License](./LICENSE)

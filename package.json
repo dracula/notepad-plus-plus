@@ -1,0 +1,19 @@
+{
+  "name": "notepad-plus-plus-themes",
+  "version": "1.0.0",
+  "description": "Dracula and Alucard themes for Notepad++",
+  "scripts": {
+    "build": "ts-node scripts/generate-themes.ts",
+    "generate": "npm run build",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.7",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
