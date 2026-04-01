@@ -56,9 +56,10 @@
             <WordsStyle name="KEYWORDS" styleID="2" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre1" />
             <WordsStyle name="LABEL" styleID="3" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="HIDE SYMBOL" styleID="4" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="COMMAND" styleID="5" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="COMMAND" styleID="5" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="VARIABLE" styleID="6" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="OPERATOR" styleID="7" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="AFTER LABEL" styleID="8" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
         </LexerType>
         <LexerType name="c" desc="C" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
@@ -136,18 +137,25 @@
         </LexerType>
         <LexerType name="css" desc="CSS" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="0" />
-            <WordsStyle name="TAG" styleID="1" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="TAG" styleID="1" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="CLASS" styleID="2" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
             <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="OPERATOR" styleID="5" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
-            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="instre1" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="instre1" />
             <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="VALUE" styleID="8" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
+            <WordsStyle name="VALUE" styleID="8" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="6C664B" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="ID" styleID="10" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
             <WordsStyle name="IMPORTANT" styleID="11" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
             <WordsStyle name="DIRECTIVE" styleID="12" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="DOUBLE STRING" styleID="13" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SINGLE STRING" styleID="14" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ATTRIBUTE" styleID="16" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="PSEUDOELEMENT" styleID="18" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type3" />
+            <WordsStyle name="LEGACY PSEUDOELEMENT" styleID="20" fgColor="644AC9" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type5" />
+            <WordsStyle name="MEDIA" styleID="22" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
+            <WordsStyle name="VARIABLE" styleID="23" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="0" />
@@ -968,7 +976,7 @@
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="E2DECA" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="6C664B" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Active tab text" styleID="0" fgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="1F1F1F" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Inactive tabs" styleID="0" fgColor="6C664B" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 1" styleID="0" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 2" styleID="0" bgColor="14710A" fontName="" fontSize=""></WidgetStyle>
