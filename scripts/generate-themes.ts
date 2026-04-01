@@ -28,14 +28,11 @@ const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string
 
       // fontName and fontSize are left empty so users can set their own values
       line += ` fontName="" fontStyle="${style.fontStyle}" fontSize=""`;
-      
+
       // colorStyle: 0 = no color override, 1 = use specified colors
       // DEFAULT styles use 0, all others use 1
-      const colorStyle = style.colorStyle !== undefined 
-        ? style.colorStyle 
-        : (style.name === "DEFAULT") 
-          ? 0 
-          : 1;
+      const colorStyle =
+        style.colorStyle !== undefined ? style.colorStyle : style.name === "DEFAULT" ? 0 : 1;
       line += ` colorStyle="${colorStyle}"`;
 
       if (style.keywordClass) {
@@ -70,14 +67,14 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
     if (style.bgColorKey) {
       line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
     }
-    
+
     // fontName and fontSize are left empty so users can set their own values
     line += ` fontName=""`;
-    
+
     if (style.fontStyle !== undefined) {
       line += ` fontStyle="${style.fontStyle}"`;
     }
-    
+
     line += ` fontSize=""`;
 
     line += `></WidgetStyle>\n`;

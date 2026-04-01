@@ -5,7 +5,7 @@ export const alucardTheme: ThemeDefinition = {
   colors: {
     background: "FFFBEB",
     foreground: "1F1F1F",
-    comment: "6C664B",
+    comment: "5A5640",
     keyword: "A3144D",
     string: "14710A",
     number: "A34D14",

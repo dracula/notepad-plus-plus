@@ -20,7 +20,6 @@ Right-click the link and select "Save link as..." or "Save target as..." to down
 #### Activating theme
 
 1. Open File Explorer and navigate to your Notepad++ themes folder:
-
    - Press `Win + R`, type `%AppData%\Notepad++\themes` and press Enter
    - Or manually go to: `C:\Users\YourUsername\AppData\Roaming\Notepad++\themes`
    - If you have a portable installation, go to your Notepad++ folder and open the `themes` folder
@@ -32,3 +31,8 @@ Right-click the link and select "Save link as..." or "Save target as..." to down
 4. Go to `Settings > Style Configurator > Theme` and select your theme from the dropdown menu, then click "Save & Close". 💜
 
 If the editor still looks like the default black-and-white scheme, confirm the theme is selected in that dropdown (not **Default**) and that you restarted Notepad++ after copying the file.
+
+#### Language and file extensions
+
+- **`.cfg` files:** This theme styles them under the **ini file** lexer (same as `.ini`). If a `.cfg` file opens as plain text, use **Language → I → ini file** (or **Language → Define your language…** / **Settings → Style Configurator** to associate the extension with **ini file**).
+- **VHDL:** Use **Language → H → VHDL** after installing the theme; the lexer is included in the generated XML.

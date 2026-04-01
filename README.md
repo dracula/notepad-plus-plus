@@ -6,7 +6,9 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/notepad-plus-plus](https://draculatheme.com/notepad-plus-plus).
+Step-by-step instructions (including direct download links) are in [INSTALL.md](./INSTALL.md). The same guide is published at [draculatheme.com/notepad-plus-plus](https://draculatheme.com/notepad-plus-plus).
+
+**Direct download (current `main` branch):** [Dracula.xml](https://raw.githubusercontent.com/dracula/notepad-plus-plus/main/generated/Dracula.xml) · [Alucard.xml](https://raw.githubusercontent.com/dracula/notepad-plus-plus/main/generated/Alucard.xml)
 
 ## Team
 
