@@ -1,5 +1,6 @@
 import type { ThemeDefinition } from "./theme-types";
 
+/** Classic Dracula palette for dark Notepad++. */
 export const draculaTheme: ThemeDefinition = {
   name: "Dracula",
   colors: {
@@ -18,21 +19,24 @@ export const draculaTheme: ThemeDefinition = {
     regex: "8BE9FD",
     special: "BD93F9",
     identifier: "F8F8F2",
-    selection: "44475A",
-    lineHighlight: "3E4152",
+    selection: "5A5D72",
+    lineHighlight: "353746",
     lineNumber: "6272A4",
-    braceHighlight: "3E4152",
+    braceHighlight: "353746",
     braceError: "FF5555",
     indentGuide: "3E404A",
     fold: "BD93F9",
     url: "8BE9FD",
     whitespace: "3E404A",
-    smartHighlight: "3E4152",
+    smartHighlight: "353746",
     activeTab: "FF79C6",
     yellow: "F1FA8C",
     green: "50FA7B",
     orange: "FFB86C",
     purple: "BD93F9",
+    tabDarkMode1: "807848",
+    tabDarkMode2: "568048",
+    tagMatchHighlight: "45465D",
   },
   fontName: "Consolas",
   fontSize: "10",

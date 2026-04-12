@@ -5,6 +5,7 @@ This project uses a TypeScript-based build system to generate Notepad++ theme XM
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -20,10 +21,11 @@ npm run build
 or
 
 ```bash
-npm run generate
+npm run build
 ```
 
 This will:
+
 1. Use the TypeScript template (`themes/template.ts`) which defines all lexer structures
 2. Apply color palettes from theme definitions (`themes/dracula.ts`, `themes/alucard.ts`)
 3. Generate XML files in the `generated/` folder
@@ -35,6 +37,7 @@ This will:
 ### Theme Definitions
 
 Theme colors are defined in TypeScript files under `themes/`:
+
 - `themes/dracula.ts` - Dracula dark theme
 - `themes/alucard.ts` - Alucard light theme
 
@@ -43,6 +46,7 @@ Each theme defines a color palette with semantic names like `foreground`, `backg
 ### Color Mapping
 
 The generator:
+
 1. Parses `Dracula.xml` to extract the structure (all lexers and their styles)
 2. Creates a mapping from hex colors in the source XML to semantic color keys
 3. Applies each theme's color palette to generate new XML files
@@ -57,6 +61,7 @@ The generator:
 ### Modifying Colors
 
 To change colors in a theme:
+
 1. Edit the theme file in `themes/` (e.g., `themes/dracula.ts`)
 2. Update the hex color values in the `colors` object
 3. Run `npm run build` to regenerate the XML files
@@ -64,6 +69,7 @@ To change colors in a theme:
 ### Adding New Lexers or Styles
 
 If Notepad++ adds new language lexers or styles:
+
 1. Update `themes/template.ts` with the new lexer/style definitions
 2. Run `npm run build` to regenerate all themes
 3. The new lexers/styles will be included in all generated themes
@@ -86,4 +92,3 @@ If Notepad++ adds new language lexers or styles:
 ├── package.json            # npm configuration
 └── tsconfig.json           # TypeScript configuration
 ```
-

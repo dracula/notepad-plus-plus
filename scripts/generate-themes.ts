@@ -7,9 +7,29 @@ import {
   globalStylesTemplate,
   type LexerDef,
   lexerTemplate,
+  type StyleDef,
 } from "../themes/template";
 import type { ThemeDefinition } from "../themes/theme-types";
 
+/**
+ * Computes Notepad++ `colorStyle` for a lexer `WordsStyle` row.
+ *
+ * @returns `0` or `1`. An explicit `style.colorStyle` always wins; otherwise `DEFAULT`
+ *          uses `0` and all other style names use `1`.
+ */
+const resolveWordsStyleColorStyle = (style: StyleDef): number =>
+  style.colorStyle ?? (style.name === "DEFAULT" ? 0 : 1);
+
+/**
+ * Serializes lexer definitions to the `<LexerStyles>` XML fragment.
+ *
+ * Writes `fgColor` / `bgColor` from the theme palette. Leaves `fontName` and `fontSize`
+ * empty so the user’s Notepad++ font choice is unchanged.
+ *
+ * @param lexers — source tree (normally `lexerTemplate`)
+ * @param theme — palette and display name
+ * @returns Indented XML string including opening and closing `<LexerStyles>` tags
+ */
 const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string => {
   let output = "    <LexerStyles>\n";
 
@@ -26,14 +46,9 @@ const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string
         line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
       }
 
-      // fontName and fontSize are left empty so users can set their own values
       line += ` fontName="" fontStyle="${style.fontStyle}" fontSize=""`;
 
-      // colorStyle: 0 = no color override, 1 = use specified colors
-      // DEFAULT styles use 0, all others use 1
-      const colorStyle =
-        style.colorStyle !== undefined ? style.colorStyle : style.name === "DEFAULT" ? 0 : 1;
-      line += ` colorStyle="${colorStyle}"`;
+      line += ` colorStyle="${resolveWordsStyleColorStyle(style)}"`;
 
       if (style.keywordClass) {
         line += ` keywordClass="${style.keywordClass}"`;
@@ -55,6 +70,15 @@ const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string
   return output;
 };
 
+/**
+ * Serializes global UI styles to the `<GlobalStyles>` XML fragment.
+ *
+ * Same empty `fontName` / `fontSize` convention as lexer word styles above.
+ *
+ * @param globalStyles — source list (normally `globalStylesTemplate`)
+ * @param theme — palette used for optional fg/bg on each row
+ * @returns Indented XML string including opening and closing `<GlobalStyles>` tags
+ */
 const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefinition): string => {
   let output = "    <GlobalStyles>\n";
 
@@ -68,7 +92,6 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
       line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
     }
 
-    // fontName and fontSize are left empty so users can set their own values
     line += ` fontName=""`;
 
     if (style.fontStyle !== undefined) {
@@ -85,6 +108,13 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
   return output;
 };
 
+/**
+ * XML declaration, `<NotepadPlus>` opener, and comment blocks (title, author, date, license).
+ *
+ * The date is generated at build time; everything else follows the upstream theme blurb.
+ *
+ * @param theme — used to pick display name and light/dark wording
+ */
 const getThemeComments = (theme: ThemeDefinition): string => {
   const themeName = theme.name === "Dracula" ? "Dracula" : "Alucard";
   const variant = theme.name === "Dracula" ? "dark" : "light";
@@ -110,6 +140,11 @@ const getThemeComments = (theme: ThemeDefinition): string => {
 `;
 };
 
+/**
+ * Assembles a complete `.xml` document: header comments, lexer styles, global styles, footer.
+ *
+ * @param theme — colors and naming for this variant
+ */
 const generateXML = (theme: ThemeDefinition): string => {
   const header = getThemeComments(theme);
   const lexerStyles = generateLexerStyles(lexerTemplate, theme);
@@ -119,16 +154,20 @@ const generateXML = (theme: ThemeDefinition): string => {
   return header + lexerStyles + globalStyles + footer;
 };
 
+/**
+ * CLI entry (`npm run build` / `ts-node scripts/generate-themes.ts`).
+ *
+ * Ensures `generated/` exists, then writes each theme by merging `lexerTemplate` and
+ * `globalStylesTemplate` with that theme’s `colors` map.
+ */
 const main = () => {
   const rootDir = path.join(__dirname, "..");
   const outputDir = path.join(rootDir, "generated");
 
-  // Create output directory if it doesn't exist
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Generate XML for each theme
   const themes: Array<{ theme: ThemeDefinition; filename: string }> = [
     { theme: draculaTheme, filename: "Dracula.xml" },
     { theme: alucardTheme, filename: "Alucard.xml" },

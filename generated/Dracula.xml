@@ -11,7 +11,7 @@
 <!--
   Style name:   	Dracula
   Author:       	Dracula Theme
-  Date:         	Apr 1, 2026
+  Date:         	Apr 12, 2026
   License:      	MIT (https://choosealicense.com/licenses/mit/)
   Description:  	A dark theme style based on the Dracula Theme color palette
   Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
@@ -603,8 +603,8 @@
             <WordsStyle name="Search Header" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" />
             <WordsStyle name="File Header" styleID="2" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="2" fontSize="" colorStyle="1" />
             <WordsStyle name="Line Number" styleID="3" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="Hit Word" styleID="4" fgColor="FF79C6" bgColor="44475A" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="Current line background colour" styleID="6" fgColor="F8F8F2" bgColor="44475A" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="FF79C6" bgColor="5A5D72" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="Current line background colour" styleID="6" fgColor="F8F8F2" bgColor="5A5D72" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
         </LexerType>
         <LexerType name="sql" desc="SQL" ext="">
             <WordsStyle name="KEYWORD" styleID="5" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre1" />
@@ -957,8 +957,8 @@
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="3E404A" bgColor="282A36" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="BD93F9" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="FF79C6" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="3E4152" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Selected text colour" styleID="0" fgColor="F8F8F2" bgColor="44475A" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="353746" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Selected text colour" styleID="0" fgColor="F8F8F2" bgColor="5A5D72" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="8BE9FD" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Edge colour" styleID="0" fgColor="3E404A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Line number margin" styleID="33" fgColor="7C8EB2" bgColor="282A36" fontName="" fontSize=""></WidgetStyle>
@@ -968,10 +968,10 @@
         <WidgetStyle name="White space symbol" styleID="0" fgColor="3E404A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="URL hovered" styleID="0" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="BD93F9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="F1FA8C" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="F8F8F2" bgColor="3E4152" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="45465D" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="F8F8F2" bgColor="353746" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FF79C6" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="44475A" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="5A5D72" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="8BE9FD" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Bookmark margin" styleID="0" bgColor="282A36" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Change History margin" styleID="0" bgColor="282A36" fontName="" fontSize=""></WidgetStyle>
@@ -988,17 +988,17 @@
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FF5555" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="50FA7B" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="BD93F9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="3E4152" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="353746" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="7C8EB2" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab text" styleID="0" fgColor="F8F8F2" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="7C8EB2" bgColor="44475A" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 1" styleID="0" bgColor="F1FA8C" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 2" styleID="0" bgColor="FFB86C" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 3" styleID="0" bgColor="8BE9FD" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 4" styleID="0" bgColor="FFB86C" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 5" styleID="0" bgColor="BD93F9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tab color dark mode 1" styleID="0" bgColor="F1FA8C" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tab color dark mode 2" styleID="0" bgColor="FFB86C" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tab color dark mode 1" styleID="0" bgColor="807848" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tab color dark mode 2" styleID="0" bgColor="568048" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 3" styleID="0" bgColor="8BE9FD" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 4" styleID="0" bgColor="FFB86C" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 5" styleID="0" bgColor="BD93F9" fontName="" fontSize=""></WidgetStyle>

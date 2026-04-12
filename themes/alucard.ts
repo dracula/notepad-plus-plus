@@ -1,5 +1,6 @@
 import type { ThemeDefinition } from "./theme-types";
 
+/** Light variant: warm paper background with Dracula-inspired accent colors. */
 export const alucardTheme: ThemeDefinition = {
   name: "Alucard",
   colors: {
@@ -33,6 +34,9 @@ export const alucardTheme: ThemeDefinition = {
     green: "14710A",
     orange: "A34D14",
     purple: "644AC9",
+    tabDarkMode1: "6B5A2E",
+    tabDarkMode2: "3D5A36",
+    tagMatchHighlight: "DDD8C8",
   },
   fontName: "Consolas",
   fontSize: "10",

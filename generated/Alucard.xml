@@ -11,7 +11,7 @@
 <!--
   Style name:   	Alucard
   Author:       	Dracula Theme
-  Date:         	Apr 1, 2026
+  Date:         	Apr 12, 2026
   License:      	MIT (https://choosealicense.com/licenses/mit/)
   Description:  	A light theme style based on the Dracula Theme color palette
   Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
@@ -968,7 +968,7 @@
         <WidgetStyle name="White space symbol" styleID="0" fgColor="DCDEEF" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="URL hovered" styleID="0" fgColor="036A96" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="DDD8C8" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="1F1F1F" bgColor="E2DECA" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="A3144D" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
@@ -991,14 +991,14 @@
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="E2DECA" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="5A5640" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab text" styleID="0" fgColor="1F1F1F" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="5A5640" bgColor="CFCFDE" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 1" styleID="0" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 2" styleID="0" bgColor="A34D14" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 3" styleID="0" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 4" styleID="0" bgColor="A34D14" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color 5" styleID="0" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tab color dark mode 1" styleID="0" bgColor="846E15" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Tab color dark mode 2" styleID="0" bgColor="A34D14" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tab color dark mode 1" styleID="0" bgColor="6B5A2E" fontName="" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tab color dark mode 2" styleID="0" bgColor="3D5A36" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 3" styleID="0" bgColor="036A96" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 4" styleID="0" bgColor="A34D14" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tab color dark mode 5" styleID="0" bgColor="644AC9" fontName="" fontSize=""></WidgetStyle>
