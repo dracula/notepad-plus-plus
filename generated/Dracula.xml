@@ -11,7 +11,7 @@
 <!--
   Style name:   	Dracula
   Author:       	Dracula Theme
-  Date:         	Apr 12, 2026
+  Date:         	Apr 14, 2026
   License:      	MIT (https://choosealicense.com/licenses/mit/)
   Description:  	A dark theme style based on the Dracula Theme color palette
   Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
@@ -235,15 +235,29 @@
             <WordsStyle name="NUMBER" styleID="5" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="TAG" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="TAGEND" styleID="11" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="TAG" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre1" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="OTHER" styleID="8" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLCOMMAND" styleID="22" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="instre2" />
+            <WordsStyle name="SGML1STPARAM" styleID="23" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLDOUBLESTRING" styleID="24" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLSIMPLESTRING" styleID="25" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLBLOCKDEFAULT" styleID="31" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="CDATA" styleID="17" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="VALUE" styleID="19" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="ENTITY" styleID="10" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="VALUE" styleID="19" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="USERTAGS1" styleID="192" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle1" />
+            <WordsStyle name="USERTAGS2" styleID="193" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle2" />
+            <WordsStyle name="USERTAGS3" styleID="194" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle3" />
+            <WordsStyle name="USERTAGS4" styleID="195" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle4" />
+            <WordsStyle name="USERATTRIBUTES1" styleID="196" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle5" />
+            <WordsStyle name="USERATTRIBUTES2" styleID="197" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle6" />
+            <WordsStyle name="USERATTRIBUTES3" styleID="198" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle7" />
+            <WordsStyle name="USERATTRIBUTES4" styleID="199" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle8" />
         </LexerType>
         <LexerType name="ini" desc="ini file" ext="cfg conf">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="0" />
@@ -706,20 +720,36 @@
             <WordsStyle name="STRING EOL" styleID="15" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
         </LexerType>
         <LexerType name="xml" desc="XML" ext="xaml svg xul vcxproj csproj vbproj fsproj lsxtproj shproj xproj ccproj jsproj sqlproj dbproj msbuildproj props">
-            <WordsStyle name="XMLSTART" styleID="12" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="XMLEND" styleID="13" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="XMLSTART" styleID="12" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="XMLEND" styleID="13" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="0" />
             <WordsStyle name="COMMENT" styleID="9" fgColor="7C8EB2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="TAG" styleID="1" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="TAGEND" styleID="11" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
-            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="TAGEND" styleID="11" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="TAGUNKNOWN" styleID="2" fgColor="56987A" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="OTHER" styleID="8" fgColor="6272A4" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="ENTITY" styleID="10" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="VALUE" styleID="19" fgColor="FFB86C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLCOMMAND" styleID="22" fgColor="BD93F9" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="instre1" />
+            <WordsStyle name="SGML1STPARAM" styleID="23" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLDOUBLESTRING" styleID="24" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLSIMPLESTRING" styleID="25" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="SGMLBLOCKDEFAULT" styleID="31" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="CDATA" styleID="17" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
+            <WordsStyle name="USERATTRIBUTES1" styleID="192" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle1" />
+            <WordsStyle name="USERATTRIBUTES2" styleID="193" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle2" />
+            <WordsStyle name="USERATTRIBUTES3" styleID="194" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle3" />
+            <WordsStyle name="USERATTRIBUTES4" styleID="195" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle4" />
+            <WordsStyle name="USERATTRIBUTES5" styleID="196" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle5" />
+            <WordsStyle name="USERATTRIBUTES6" styleID="197" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle6" />
+            <WordsStyle name="USERATTRIBUTES7" styleID="198" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle7" />
+            <WordsStyle name="USERATTRIBUTES8" styleID="199" fgColor="697A9E" bgColor="282A36" fontName="" fontStyle="1" fontSize="" colorStyle="1" keywordClass="substyle8" />
         </LexerType>
         <LexerType name="yaml" desc="YAML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" colorStyle="0" />

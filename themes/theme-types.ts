@@ -50,6 +50,15 @@ export interface ColorPalette {
    * Intentionally subtle so normal selection remains obvious.
    */
   tagMatchHighlight: string;
+  /**
+   * Brackets, `/>`, `<?` / `?>`, unknown-tag prefixes, and related boundary tokens in XML/HTML.
+   * Distinct from pink tag names so structure reads at a glance.
+   */
+  markupDelimiter: string;
+  /**
+   * Markup attribute names (`name=`, `styleID=`). Darker than `url` so selected text stays obvious.
+   */
+  markupAttribute: string;
 }
 
 /**

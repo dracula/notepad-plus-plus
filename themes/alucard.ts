@@ -37,6 +37,8 @@ export const alucardTheme: ThemeDefinition = {
     tabDarkMode1: "6B5A2E",
     tabDarkMode2: "3D5A36",
     tagMatchHighlight: "DDD8C8",
+    markupDelimiter: "2A6B45",
+    markupAttribute: "3A5378",
   },
   fontName: "Consolas",
   fontSize: "10",

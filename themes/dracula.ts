@@ -37,6 +37,8 @@ export const draculaTheme: ThemeDefinition = {
     tabDarkMode1: "807848",
     tabDarkMode2: "568048",
     tagMatchHighlight: "45465D",
+    markupDelimiter: "56987A",
+    markupAttribute: "697A9E",
   },
   fontName: "Consolas",
   fontSize: "10",
