@@ -55,10 +55,12 @@ export interface ColorPalette {
    * Distinct from pink tag names so structure reads at a glance.
    */
   markupDelimiter: string;
-  /**
-   * Markup attribute names (`name=`, `styleID=`). Darker than `url` so selected text stays obvious.
-   */
+  /** Markup attribute names (`name=`, `styleID=`). Often aligned with `url` on dark themes. */
   markupAttribute: string;
+  /**
+   * Background for the GlobalStyles “Tags attribute” highlight (paired tag / attribute chrome).
+   */
+  tagAttributeChrome: string;
 }
 
 /**
