@@ -30,6 +30,7 @@ export interface ColorPalette {
   url: string;
   whitespace: string;
   smartHighlight: string;
+  incrementalHighlight: string;
   activeTab: string;
   yellow: string;
   green: string;

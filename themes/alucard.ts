@@ -29,6 +29,7 @@ export const alucardTheme: ThemeDefinition = {
     url: "036A96",
     whitespace: "DCDEEF",
     smartHighlight: "E2DECA",
+    incrementalHighlight: "E2DECA",
     activeTab: "A3144D",
     yellow: "846E15",
     green: "14710A",

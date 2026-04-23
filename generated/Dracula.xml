@@ -11,7 +11,7 @@
 <!--
   Style name:   	Dracula
   Author:       	Dracula Theme
-  Date:         	Apr 21, 2026
+  Date:         	Apr 23, 2026
   License:      	MIT (https://choosealicense.com/licenses/mit/)
   Description:  	A dark theme style based on the Dracula Theme color palette
   Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
@@ -999,7 +999,7 @@
         <WidgetStyle name="URL hovered" styleID="0" fgColor="8BE9FD" bgColor="282A36" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="666B8A" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="6272A4" fontName="" fontSize=""></WidgetStyle>
-        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="F8F8F2" bgColor="353746" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Smart HighLighting" styleID="29" fgColor="F8F8F2" bgColor="8BE9FD" fontName="" fontStyle="1" fontSize=""></WidgetStyle>
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FF79C6" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
         <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="5A5D72" fontName="" fontSize=""></WidgetStyle>
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="8BE9FD" fontName="" fontSize=""></WidgetStyle>
