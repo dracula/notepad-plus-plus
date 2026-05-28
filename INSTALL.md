@@ -32,6 +32,19 @@ Right-click the link and select "Save link as..." or "Save target as..." to down
 
 If the editor still looks like the default black-and-white scheme, confirm the theme is selected in that dropdown (not **Default**) and that you restarted Notepad++ after copying the file.
 
+#### Troubleshooting tab colors (active/inactive tabs)
+
+If tab text or tab backgrounds do not match the theme (for example, unreadable active/inactive tab contrast), check these Notepad++ settings:
+
+1. `Settings > Preferences > General`
+   - Enable inactive tab colorization, otherwise inactive tabs can keep default background colors.
+2. `Settings > Preferences > Dark Mode`
+   - Newer Notepad++ builds can use dedicated dark-mode tab colors instead of theme tab colors.
+3. Advanced config (`config.xml`)
+   - If needed, enable `darkTabUseTheme` (and `lightTabUseTheme` for light mode) so tab backgrounds follow theme colors.
+
+Notepad++ can prioritize dark-mode defaults over theme tab colors depending on configuration, so this behavior is not always caused by a broken theme XML file.
+
 #### Language and file extensions
 
 - **`.cfg` files:** This theme styles them under the **ini file** lexer (same as `.ini`). If a `.cfg` file opens as plain text, use **Language → I → ini file** (or **Language → Define your language…** / **Settings → Style Configurator** to associate the extension with **ini file**).

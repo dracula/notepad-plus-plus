@@ -11,7 +11,7 @@
 <!--
   Style name:   	Alucard
   Author:       	Dracula Theme
-  Date:         	Apr 23, 2026
+  Date:         	May 28, 2026
   License:      	MIT (https://choosealicense.com/licenses/mit/)
   Description:  	A light theme style based on the Dracula Theme color palette
   Languages:    	Should work with all languages without issue but hasn't been tested on absolutely every one of them.
@@ -906,7 +906,7 @@
             <WordsStyle name="IDENTIFIER" styleID="1" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="TAGNAME" styleID="2" fgColor="14710A" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre1" />
-            <WordsStyle name="BUILIN FUNC & TYPE" styleID="4" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2" />
+            <WordsStyle name="BUILIN FUNC &amp; TYPE" styleID="4" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2" />
             <WordsStyle name="TYPE" styleID="5" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1" />
             <WordsStyle name="LINENUM" styleID="6" fgColor="1F1F1F" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />
             <WordsStyle name="OPERATOR" styleID="7" fgColor="A3144D" bgColor="FFFBEB" fontName="" fontStyle="0" fontSize="" colorStyle="1" />

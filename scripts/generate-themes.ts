@@ -12,6 +12,23 @@ import {
 import type { ThemeDefinition } from "../themes/theme-types";
 
 /**
+ * Escapes a value before placing it inside a double-quoted XML attribute.
+ */
+const escapeXmlAttr = (value: string | number): string =>
+  String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+/**
+ * Escapes a value before placing it inside XML text content.
+ */
+const escapeXmlText = (value: string | number): string =>
+  String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+/**
  * Computes Notepad++ `colorStyle` for a lexer `WordsStyle` row.
  *
  * @returns `0` or `1`. An explicit `style.colorStyle` always wins; otherwise `DEFAULT`
@@ -34,28 +51,28 @@ const generateLexerStyles = (lexers: LexerDef[], theme: ThemeDefinition): string
   let output = "    <LexerStyles>\n";
 
   for (const lexer of lexers) {
-    output += `        <LexerType name="${lexer.name}" desc="${lexer.desc}" ext="${lexer.ext}">\n`;
+    output += `        <LexerType name="${escapeXmlAttr(lexer.name)}" desc="${escapeXmlAttr(lexer.desc)}" ext="${escapeXmlAttr(lexer.ext)}">\n`;
 
     for (const style of lexer.styles) {
-      let line = `            <WordsStyle name="${style.name}" styleID="${style.styleID}"`;
+      let line = `            <WordsStyle name="${escapeXmlAttr(style.name)}" styleID="${escapeXmlAttr(style.styleID)}"`;
 
       if (style.fgColorKey) {
-        line += ` fgColor="${theme.colors[style.fgColorKey]}"`;
+        line += ` fgColor="${escapeXmlAttr(theme.colors[style.fgColorKey])}"`;
       }
       if (style.bgColorKey) {
-        line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
+        line += ` bgColor="${escapeXmlAttr(theme.colors[style.bgColorKey])}"`;
       }
 
-      line += ` fontName="" fontStyle="${style.fontStyle}" fontSize=""`;
+      line += ` fontName="" fontStyle="${escapeXmlAttr(style.fontStyle)}" fontSize=""`;
 
-      line += ` colorStyle="${resolveWordsStyleColorStyle(style)}"`;
+      line += ` colorStyle="${escapeXmlAttr(resolveWordsStyleColorStyle(style))}"`;
 
       if (style.keywordClass) {
-        line += ` keywordClass="${style.keywordClass}"`;
+        line += ` keywordClass="${escapeXmlAttr(style.keywordClass)}"`;
       }
 
       if (style.customText) {
-        line += `>${style.customText}</WordsStyle>\n`;
+        line += `>${escapeXmlText(style.customText)}</WordsStyle>\n`;
       } else {
         line += ` />\n`;
       }
@@ -83,19 +100,19 @@ const generateGlobalStyles = (globalStyles: GlobalStyleDef[], theme: ThemeDefini
   let output = "    <GlobalStyles>\n";
 
   for (const style of globalStyles) {
-    let line = `        <WidgetStyle name="${style.name}" styleID="${style.styleID}"`;
+    let line = `        <WidgetStyle name="${escapeXmlAttr(style.name)}" styleID="${escapeXmlAttr(style.styleID)}"`;
 
     if (style.fgColorKey) {
-      line += ` fgColor="${theme.colors[style.fgColorKey]}"`;
+      line += ` fgColor="${escapeXmlAttr(theme.colors[style.fgColorKey])}"`;
     }
     if (style.bgColorKey) {
-      line += ` bgColor="${theme.colors[style.bgColorKey]}"`;
+      line += ` bgColor="${escapeXmlAttr(theme.colors[style.bgColorKey])}"`;
     }
 
     line += ` fontName=""`;
 
     if (style.fontStyle !== undefined) {
-      line += ` fontStyle="${style.fontStyle}"`;
+      line += ` fontStyle="${escapeXmlAttr(style.fontStyle)}"`;
     }
 
     line += ` fontSize=""`;
