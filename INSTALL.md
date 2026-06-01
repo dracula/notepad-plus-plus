@@ -36,12 +36,12 @@ If the editor still looks like the default black-and-white scheme, confirm the t
 
 If tab text or tab backgrounds do not match the theme (for example, unreadable active/inactive tab contrast), check these Notepad++ settings:
 
-1. `Settings > Preferences > General`
-   - Enable inactive tab colorization, otherwise inactive tabs can keep default background colors.
+1. `Settings > Preferences > General > Tab Bar`
+   - Enable `Change inactive tab color`, otherwise inactive tabs can keep the active-tab background color.
 2. `Settings > Preferences > Dark Mode`
    - Newer Notepad++ builds can use dedicated dark-mode tab colors instead of theme tab colors.
 3. Advanced config (`config.xml`)
-   - If needed, enable `darkTabUseTheme` (and `lightTabUseTheme` for light mode) so tab backgrounds follow theme colors.
+   - If needed, enable `darkTabUseTheme` (dark mode) and `lightModeUseTheme` (light mode) so tab backgrounds follow theme colors.
 
 Notepad++ can prioritize dark-mode defaults over theme tab colors depending on configuration, so this behavior is not always caused by a broken theme XML file.
 
